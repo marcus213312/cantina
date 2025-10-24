@@ -1,1 +1,50 @@
+/* Resetando algumas configurações padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #444444; /* Um fundo mais suave */
+  color: #585858;
+  line-height: 4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo do título */
+h1 {
+  color: #000000; /* Verde mais suave */
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Estilo dos parágrafos */
+p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Caixa para mostrar os resultados */
+.resultados {
+  background-color: #cdcdcd;
+  border: 1px solid #000000;
+  padding: 15px;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resultados p {
+  font-size: 1.2rem;
+  color: #333;
+}
 
